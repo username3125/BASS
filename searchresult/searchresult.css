@@ -1,0 +1,44 @@
+.custom-section {
+    height: 10%;
+    width: auto;
+    margin: 2% 10%;
+    border-bottom: 1px solid #808080; /* Outline */
+    padding: 10px; /* Add padding for content */
+    display: flex;
+    align-items: center;
+    background-color: #fff; /* Background color */
+    
+}
+
+.custom-section a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.custom-section div {
+    display: flex;
+    position:absolute;
+    right: 15%;
+    padding: auto;
+}
+
+.custom-section div p{
+    margin-left: 10px;
+}
+.addmoretag {
+    height: 10%;
+    width: auto;
+    margin: 1% 10%;
+    border: 1px solid #808080; /* Outline */
+    padding: 10px; /* Add padding for content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* Background color */
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}

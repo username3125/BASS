@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모두의 나무 홈페이지</title>
+    <link rel="stylesheet" type="text/css" href="../Mainpage/mainpage.css">
+    
+</head>
+<body>
+    <header>
+        <a href="../Mainpage/index.html">
+            <img src="../Moduicon.png" alt="Logo" class="logo">
+        </a>
+        <div class="button-group">
+            <a href="#" class="button">로그인</a>
+            <a href="#" class="button">회원가입</a>
+            <a href="../treerequest/treerequest.html" class="button">태그요청하기</a>
+            <a href="../writingtree/writingtree.html" class="button">글쓰기</a>
+        </div>
+    </header>
+    <nav>
+        <form id="search-form" method="get" onsubmit="submitForm()" action="../searchresult/searchresult.html">
+            <input type="text" id="tag-search-input" placeholder="Search for tags" autocomplete="off">
+            <button type="submit" id="search-form button">Search</button>
+        </form>
+    </nav>
+    <main>
+        <h2 id="site-explain-title">
+            <p>독학의 노하우가 모이는 곳</p>
+        </h2>
+        <div id="site-explain">
+            <p>지금까지 우리는 새로운 공부에 도전하기 전에 다양한 사이트에서 정보를 얻으려 애써야 했습니다.</p>
+            <p>정해진 형식 없이 여러 곳에 퍼져있는 정보의 조각들을 하나의 퍼즐로 맞추기 위해 많은 시간을 써야 했습니다.</p>   
+            <p>이를 해결하기 위해 우리는 나무를 고안했습니다.</p>
+            <p>클릭하는 순간 한 눈에 들어오는 나무.</p>
+            <p>한 개인의 학습법이 응축된 나무.</p>
+            <p>그리고 다양한 개인의 경험 나무가 심겨진 숲.</p>
+            <p>바로 ‘모두의 나무’입니다.</p>
+        </div>
+    </main>
+    <script src="../searchresult/searchresult.js" async></script>
+</body>
+</html>

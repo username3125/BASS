@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Header</title>
+    <link rel="stylesheet" type="text/css" href="../Mainpage/mainpage.css">
+    <link rel="stylesheet" type="text/css" href="../searchresult/searchresult.css">
+    <script src="../searchresult/searchresult.js" async></script>
+</head>
+<body>
+    <header>
+        <a href="../Mainpage/index.html">
+            <img src="../Moduicon.png" alt="Logo" class="logo">
+        </a>
+        <div class="button-group">
+            <a href="#" class="button">로그인</a>
+            <a href="#" class="button">회원가입</a>
+            <a href="../treerequest/treerequest.html" class="button">태그요청하기</a>
+            <a href="../writingtree/writingtree.html" class="button">글쓰기</a>
+        </div>
+    </header>
+    <nav>
+        <form id="search-form">
+            <input type="text" id="tag-search-input" placeholder="Search for tags">
+            <button type="submit"  class="search-form button" onclick="SubmitEvent">Search</button>
+        </form>
+    </nav>
+    <main>
+        <div id="search-results">
+            <section class="custom-section">
+                <a href="../showtree/english.html">수능 영어 공부하는 법</a>
+                <div>
+                    <p>조회수 53</p>
+                    <p>추천수 2</p>
+                    <p>댓글 1</p>
+                </div>
+            </section>
+            <section class="custom-section">
+                <a href="../showtree/math.html">고등학교 수능 수학</a>
+                <div>
+                    <p>조회수 517</p>
+                    <p>추천수 17</p>
+                    <p>댓글 13</p>
+                </div>
+            </section>
+            <section class="custom-section">
+                <a href="../showtree/korean.html">수능 국어: 체계적으로 준비하는 법</a>
+                <div>
+                    <p>조회수 210</p>
+                    <p>추천수 8</p>
+                    <p>댓글 5</p>
+                </div>
+            </section>
+            <section class="addmoretag">
+                <a href="../writingtree/writingtree.html">더 많은 태그를 등록해 보세요!</a>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

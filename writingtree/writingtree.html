@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Header</title>
+    <link rel="stylesheet" type="text/css" href="../Mainpage/mainpage.css">
+    <link rel="stylesheet" type="text/css" href="writingcss.css">
+</head>
+<body>
+    <header>
+        <a href="../Mainpage/index.html">
+            <img src="../Moduicon.png" alt="Logo" class="logo">
+        </a>
+        <div class="button-group">
+            <a href="#" class="button">로그인</a>
+            <a href="#" class="button">회원가입</a>
+            <a href="../treerequest/treerequest.html" class="button">태그요청하기</a>
+            <a href="../writingtree/writingtree.html" class="button">글쓰기</a>
+        </div>
+    </header>
+    <nav>
+        <form id="search-form">
+            <input type="text" id="tag-search-input" placeholder="Search for tags">
+            <button type="submit"  class="search-form button" onclick="SubmitEvent">Search</button>
+        </form>
+    </nav>
+    <div id="tree-title">
+        <p float: left>나무 만들기</p>
+        <button id="finish-post">나무 등록하기</button>
+    </div>
+    <button id="add-post">단계 추가</button>
+
+    <div id="post-container">
+        <script src="writingjs.js"></script>
+        <!-- 글쓰기 창들이 이 곳에 추가 -->
+    </div>
+</body>
+</html>
