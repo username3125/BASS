@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>모두의 나무 홈페이지</title>
-    <link rel="stylesheet" type="text/css" href="../Mainpage/mainpage.css">
+    <link rel="stylesheet" type="text/css" href="./src/styles.css">
     
 </head>
 <body>
     <header>
-        <a href="../Mainpage/index.html">
-            <img src="../Moduicon.png" alt="Logo" class="logo">
+        <a href="index.html">
+            <img src="./src/images/Moduicon.png" alt="Logo" class="logo">
         </a>
         <div class="button-group">
             <a href="#" class="button">로그인</a>
             <a href="#" class="button">회원가입</a>
-            <a href="../treerequest/treerequest.html" class="button">태그요청하기</a>
-            <a href="../writingtree/writingtree.html" class="button">글쓰기</a>
+            <a href="./src/pages/treerequest.html" class="button">태그요청하기</a>
+            <a href="./src/pages/writingtree.html" class="button">글쓰기</a>
         </div>
     </header>
     <nav>
-        <form id="search-form" method="get" onsubmit="submitForm()" action="../searchresult/searchresult.html">
+        <form id="search-form" method="get" onsubmit="submitForm()" action="./src/pages/searchresult.html">
             <input type="text" id="tag-search-input" placeholder="Search for tags" autocomplete="off">
             <button type="submit" id="search-form button">Search</button>
         </form>
@@ -39,6 +39,6 @@
             <p>바로 ‘모두의 나무’입니다.</p>
         </div>
     </main>
-    <script src="../searchresult/searchresult.js" async></script>
+    <script src="./src/script.js" async></script>
 </body>
 </html>

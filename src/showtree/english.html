@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모두의 나무 홈페이지</title>
+    <link rel="stylesheet" type="text/css" href="../showtree/show.css">
+    <link rel="stylesheet" type="text/css" href="../Mainpage/mainpage.css">
+    
+</head>
+<body>
+    <header>
+        <a href="../Mainpage/index.html">
+            <img src="../Moduicon.png" alt="Logo" class="logo">
+        </a>
+        <div class="button-group">
+            <a href="#" class="button">로그인</a>
+            <a href="#" class="button">회원가입</a>
+            <a href="../treerequest/treerequest.html" class="button">태그요청하기</a>
+            <a href="../writingtree/writingtree.html" class="button">글쓰기</a>
+        </div>
+    </header>
+    <nav>
+        <form id="search-form" method="get" onsubmit="submitForm()" action="../searchresult/searchresult.html">
+            <input type="text" id="tag-search-input" placeholder="Search for tags" autocomplete="off">
+            <button type="submit" id="search-form button">Search</button>
+        </form>
+    </nav>
+    <div id="tree-container">
+        <div class="level">
+            <div class="postit">
+                <h1>4단계 - 봉투 모의고사</h1>
+                <p>다양한 회사들의 봉투모의고사들을 풀며 다양한 유형의 문제를 미리 접하고 대비한다.</p>
+            </div>
+        </div>
+        <div class="level">
+            <div class="postit">
+                <h1>3단계 - 기출</h1>
+                <p>씨뮬 영어 기출 문제집을 통해 기출문제를 확인한다.</p>
+            </div>
+        </div>
+        <div class="level">
+            <div class="postit">
+                <h1>2단계 - EBS교재</h1>
+                <p>EBS교재들을 본다.</p>
+            </div>
+        </div>
+        <div class="level">
+            <div class="postit">
+                <h1>1단계 - 영문법</h1>
+                <p>어법끝(쎄듀) 교재를 통해 어법의 기초를 쌓는다.</p>
+            </div>
+            <div class="postit">
+                <h1>1단계 - 영단어</h1>
+                <p>워드마스터 수능 2000을 통해 영단어기초를 쌓는다.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
